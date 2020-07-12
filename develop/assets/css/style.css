@@ -5,5 +5,35 @@
 }
 
 body {
-    background-color: #2bb2bb;
+    background-color: #2bb2bb !important;
+}
+
+/* navbar */
+nav {
+    position: fixed !important;
+    width: 100%;
+}
+
+button {
+    border: none !important;
+}
+
+/* search container */
+.container {
+    /* background-color: navy; */
+    padding: 5%;
+    position: absolute;
+    top: 22%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    padding: .7%;
+}
+
+.btn-submit {
+    padding: .7%;
 }
