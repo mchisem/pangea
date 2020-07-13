@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #2bb2bb !important;
+    background-color: black !important;
 }
 
 /* navbar */
@@ -36,4 +36,18 @@ input {
 
 .btn-submit {
     padding: .7%;
+}
+
+/* footer */
+footer {
+    height: 25vh;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    text-align: center;
+    color: white;
+    padding: 5%;
 }
