@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body {
-    background-color: black !important;
-}
-
 /* navbar */
 nav {
     position: fixed !important;
@@ -20,13 +16,13 @@ button {
 
 /* search container */
 .container {
-    /* background-color: navy; */
     padding: 5%;
     position: absolute;
+    margin: 0 !important;
     top: 22%;
-    left: 0;
-    right: 0;
+    max-width: 100% !important;
     text-align: center;
+    background-image: url(../images/frontpageimg.jpeg);
 }
 
 input {
@@ -39,9 +35,12 @@ input {
 }
 
 /* footer */
+span {
+    color: black;
+}
+
 footer {
     height: 25vh;
-    background-color: white;
     position: absolute;
     width: 100%;
     left: 0;
